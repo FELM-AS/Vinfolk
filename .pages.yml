@@ -1,0 +1,12 @@
+media: assets/images
+content:
+  - name: products
+    label: Produkter
+    path: products
+    type: collection
+    fields:
+      - name: productName
+        label: Produktnavn
+        type: string
+        required: true
+        

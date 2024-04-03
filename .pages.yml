@@ -5,8 +5,14 @@ content:
     path: products
     type: collection
     fields:
+      - name: layout
+        label: Layout
+        default: product
+        type: string
       - name: productName
         label: Produktnavn
         type: string
         required: true
-        
+      - filename: fields.productName
+    view:
+      fields: [ name ]

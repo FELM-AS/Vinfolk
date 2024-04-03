@@ -4,7 +4,7 @@ content:
     label: Produkter
     path: products
     type: collection
-    filename: { fields.productName }
+    filename: {fields.productName}
     fields:
       - name: layout
         label: Layout
@@ -19,4 +19,4 @@ content:
         type: string
         required: true
     view:
-      fields: [ productName, producer ]
+      fields: [productName, producer]

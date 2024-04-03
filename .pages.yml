@@ -4,6 +4,7 @@ content:
     label: Produkter
     path: products
     type: collection
+    filename: fields.productName
     fields:
       - name: layout
         label: Layout
@@ -13,6 +14,5 @@ content:
         label: Produktnavn
         type: string
         required: true
-      - filename: fields.productName
     view:
       fields: [ name ]

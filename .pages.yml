@@ -10,4 +10,4 @@ content:
       - { name: layout, label: Layout, default: product, type: string }
       - { name: productName, label: Produktnavn, type: string, required: true }
       - { name: producer, label: Produsent, type: string, required: true }
-    filename: { fields.productName }
+    filename: '{ fields.productName }'

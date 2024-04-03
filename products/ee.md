@@ -1,5 +1,5 @@
 ---
 layout: product
-productName: ee
+productName: chateau neuf de pape
 producer: ee
 ---
